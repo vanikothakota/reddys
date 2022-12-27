@@ -116,3 +116,23 @@ ls
 sudo yum install maven -y
 pwd
 mvn --version
+sudo yum install maven -y
+pwd
+mvn --version
+mvn archetype:generate -DgroupId=in.javahome -DartifactId=hirings -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+mvn archetype:generate -DgroupId=in.javahomecloud -DartifactId=job -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+ls
+ls job
+sudo yum install git -y
+git init
+git congfig --global user.name "vanireddy"
+git congfig --global user.name"vanireddy"
+git config --global user.name"vanireddy"
+git config --global user.email"vanireddy@gmail.com"
+git status
+git add .
+git commit -m 'java project setup'
+git push origin main
+git remote -v
+git push origin main
+git remote -v
